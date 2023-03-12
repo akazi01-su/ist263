@@ -1,0 +1,23 @@
+textarea id = "comments" name = "comments" rows = "50" cols = 45
+
+<table>
+    <caption>Head
+
+    </caption>
+
+    <tr>
+        <th>header</th>
+        <th>header</th>
+    </tr>
+
+    <tr>
+        <td> dinein</td>
+        <td> djnnd</td>
+    </tr>
+</table>
+
+<a href = "www.google.com" target = "_blank">google </a>
+<img src ="../images/linkedin.png" alt ="Linkedin">
+
+<label for = "pickup">Pickup</label>
+<input type = "radio" id = "pickup" name = "pickupordelivery" value = "pickup">
