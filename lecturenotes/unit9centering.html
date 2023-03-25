@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            text-align: center;
+        }
+        h1, div {
+            background-color: lightblue;
+        }
+        div {
+            /* onlt centers if block elements */
+            width: 50%;
+            margin: 0 auto;
+            padding: 10px; 
+        }
+        section {
+            /* content can take up the full width
+            will keep block level ekemenrs 100% of the screen */
+            border: 2 px dashed #000000;
+            display: flex; 
+            justify-content: center; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Centering</h1>
+    <h2>Text Centering</h2>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus distinctio nam expedita provident et doloremque optio amet, maxime ipsa quidem. Maiores nam impedit labore eius pariatur cupiditate assumenda nulla enim.</p>
+    <h2>Block Centering</h2>
+    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, numquam? Quibusdam omnis accusantium ullam reprehenderit nemo est quam quos aliquam deserunt dignissimos, iste, nostrum dolorum tempora nisi molestias eligendi molestiae.</div>
+    <h2>Flexbox Hack</h2>
+    <section>
+        <img src = "otto.jpg" alt = "Otto"> 
+    </section>
+</body>
+</html>

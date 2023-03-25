@@ -1,0 +1,55 @@
+h1 {color: black;
+    text-align: center;
+}
+body {
+    color:black;
+    background-color:white;
+}
+a {
+    color: #d14128;
+}
+nav {
+    background-color: #e6d81e;
+}
+nav a {
+    color: #d14128;
+}
+
+nav a:hover {
+    background-color:#000000;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+img {
+    height: 75px;
+    width: 75px;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+    padding: 10px;
+}
+
+aside {
+    background-color: turquoise;
+    border-radius: 1em;
+    padding: 50px;
+    margin: 50px;
+}
+    
+
+
+.flex1 {
+    flex-basis: 2000px;
+}
+
+.flex2 {
+    flex-basis: 700px;
+    
+}
