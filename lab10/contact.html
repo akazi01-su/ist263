@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset = "utf-8">
+    <meta name ="viewport" content = "width-device-width, initial-scale -1.0">
+    <title> Amaan Kazi - Lab 03 </title>
+    <link rel = "stylesheet" href = "styles.css">
+    <style>
+        div {
+            display: flex; 
+        }
+        .part1 {
+            background-color: yellow;
+            padding: 20px;
+            border-radius: 1em;
+            margin: 20px;
+        }
+
+        .part2 {
+            background-color: green;
+            padding: 20px;
+            border-radius: 1em;
+            margin: 20px;
+        }
+
+        .col3 {flex: 1; order: 1;}
+        .col4 {flex: 1; order: 2; }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href ="index.html">Home <span> |</span> </a>
+        <a href = "skills.html">Skills <span> |</span> </a> </a>
+        <a href = "contact.html">Contact</a>
+    </nav>
+<h1>Contact</h1>
+
+<div class="part1">
+    <div class = "col1">
+        <p>
+        Amaan Kazi<br>
+        800 South Crouse Ave<br>
+        Syracuse, NY 13210<br>
+        <a href="mailto:akazi01@syr.edu">Amaan Kazi's Email</a> <br>
+        </p>
+    </div>
+    <div class ="col2">
+        <a href="http://www.linkedin.com/in/kaziamaan/" target="_blank">My Linkedin Profile</a> <br> 
+        <p>
+            <a href="http://www.linkedin.com/in/kaziamaan">
+            <img src="../lab05/logo-sized.png" alt="Linkedin">
+            </a>
+            
+    </div>
+</div>
+<div class ="part2 ">
+    <div class ="col3">
+        <form action="https://formspree.io/f/mdovezwq" method="POST">
+            <label for ="purpose" >Purpose for comment</label>
+            <input type = "text" id ="purpose" name = "purpose">
+        
+            <br>
+            
+        
+            <input type ="radio" id ="compliment" name = "complimentcomplaint" value = "compliment">
+            <label for = "compliment"> Compliment </label>
+            <input type = "radio" id = "complaint" name = "complimentcomplaint" value = "complaint">
+            <label for = "complaint"> Complaint </label>
+        
+            <br>
+        
+        
+        
+            <textarea id = "message" name ="message" rows = "3" cols ="50"></textarea>
+        
+            <br>
+        
+            <input type = "submit" value ="Place Review">
+         </form>
+    </div>
+    <div class ="col4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.36621174296!2d-76.12660478467978!3d43.03372577914739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3717003831b%3A0xb7a0a20d5538d662!2s914%20Ackerman%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1675356567906!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
