@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Current</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:white;
+            background-color: green;
+        }
+        img {
+            width: 475px; 
+            float: left;
+            padding: 30px;
+        }
+        div {
+            display: flex; 
+            justify-content: space-around;
+        }
+      
+
+    </style>
 </head>
 <body>
 
     <header> THE TENNIS BLOG </header>
+
+    <a href = "#main" class ="skip">Skip to content</a>
 
     <nav>
         <a href ="history.html">History | </a>
@@ -16,12 +37,16 @@
         <a href = "brands.html"> Branding and Sponsorships</a>
     </nav>
 
-<p>Tennis Rankings work on a point system where the player with the most points will be the highest ranked player. Association of Tennis Professionals or ATP is the worldwide top-tier tennis tour for Men and the Women’s Tennis Association, or WTA keep track of player rankings. 
+<p id = #main>Tennis Rankings work on a point system where the player with the most points will be the highest ranked player. Association of Tennis Professionals or ATP is the worldwide top-tier tennis tour for Men and the Women’s Tennis Association, or WTA keep track of player rankings. 
 </p>
 
 <p> In the sport of tennis, there are 4 majors or grand slams. They are the Australian Open, Roland-Garros (French Open), Wimbledon, and the US Open. The Australian Open takes place in Melbourne in the month of January. The French Open normally takes place in Paris during late May and early June. Wimbledon, which is the most prestigious tournament in the sport takes place in July in London. Finally, the US Open takes place in Flushing, Queens, New York during August and September. </p>
 
-<p>The current world number 1, Novak Djokovic also very recently attained his 22nd grand slam title tying the record held by former number 1 in the world, Rafael Nadal. The current second seed, Carlos Alcaraz, is quite the sensation becoming the youngest world number 1 ever and winning the US Open at just the age of 19 years old. </p>
+<figure>
+<img src = "../media/novak.jpeg" alt = "Novak">
+</figure>
+
+<p>The current world number 1, Novak Djokovic (pictured on the right) also very recently attained his 22nd grand slam title tying the record held by former number 1 in the world, Rafael Nadal. The current second seed, Carlos Alcaraz, is quite the sensation becoming the youngest world number 1 ever and winning the US Open at just the age of 19 years old. </p>
 
 <p>The Big Three in tennis refers to top 3 players of the generation that is near its end. It is Roger Federer, Rafael Nadal, and Novak Djokovic. Out of the 3, Novak is the only current player playing at a level where he is winning matches and tournaments (he won the Australian Open this year – his 22nd title). Roger Federer recently retired late last year after a very successful career and Rafael Nadal is still active but has injury problems that he currently faces. </p>
 
@@ -29,13 +54,27 @@
 
 <p>Another important tournament is the Davis Cup. It is the premier international tea event in men’s tennis. It is called the “World Cup of Tennis” and whichever team wins are referred to as the World Champion Team. The tournament format is basically players from two different nations go head-to-head and best 3 or best of 5 matches. It also consists of both the singles and doubles version of the game. </p>
 
-<img src = "../media/novak.jpeg" alt = "Novak">
-<p>Current World Number 1, Novak Djokovic</p>
 
-<h1> Current Scores</h1>
+<footer>
+<h1> Latest Results</h1>
 
-<h2> Men's</h2>
 
-<h2> Women's</h2>
+<div>
+    <div>Men's</div>
+    <div>Monte Carlo Masters</div>
+    <div>Winner: Andrey Rublev (RUS)</div>
+    <div>Surface: Clay</div>
+</div>
+<hr> 
+<div>
+    <div>Women's</div>
+    <div>WTA's Copa Colsanatas</div>
+    <div>Winner: Tatjana Maria (GER)</div>
+    <div>Surface: Clay</div>
+</div>
+
+</footer>
+
+
 </body>
 </html>
