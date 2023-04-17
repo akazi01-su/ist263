@@ -24,8 +24,10 @@
         a {
             color:yellow;
         }
-      
-
+        @media only screen and (max-width: 700px) {
+        nav a {display:block;}
+        span {display: none;}
+        }
     </style>
 </head>
 <body>
@@ -35,8 +37,8 @@
     <a href="#main" class="skip-to-main-content-link">Skip to main content</a>
 
     <nav>
-        <a href ="history.html">History | </a>
-        <a href = "current.html">The Current Affairs | </a>
+        <a href ="history.html">History <span>|</span> </a>
+        <a href = "current.html">The Current Affairs <span>|</span> </a>
         <a href = "brands.html"> Branding and Sponsorships</a>
     </nav>
 
