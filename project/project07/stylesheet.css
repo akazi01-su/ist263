@@ -1,0 +1,27 @@
+body {
+    font-family: 'Comfortaa', sans-serif;
+    color:white;
+    background-color: green;
+}
+a {
+    color:yellow;
+}
+@media only screen and (max-width: 700px) {
+    nav a {display:block;}
+    span {display: none;}
+    }
+
+    .skip {
+        padding: 5px;
+        background-color: white;
+        border: 1px solid black;
+        text-decoration: none; 
+        top: 10px; 
+        left: -999px;
+        color: black;
+    }
+
+    header {
+        color: greenyellow;
+        font-family: 'Castoro Titling', sans-serif;
+    }
